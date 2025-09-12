@@ -49,6 +49,6 @@ class Teacher(person):
 def getInfo(self):
         print(f"This person's name {self.name} With NIP {self.nip}, {self.age} years old")
 
-student1 = Teacher('salma', 16, '12345678')
-student1.getInfo()
-student1.mengajar('Math')
+Teacher1 = Teacher('salma', 21, '12345678')
+Teacher1.getInfo()
+Teacher1.mengajar('Math')

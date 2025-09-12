@@ -1,0 +1,24 @@
+import json
+
+data = {
+    'employees' : [
+        {
+            'name' : 'Hafizh',
+            'age' : 13   
+        },
+        {
+            'name' : 'azzam',
+            'age' : 15     
+        },
+        {
+            'name' : 'miss salamah',
+            'age' : 20     
+        }        
+    ],
+    'student' : [
+        {
+            'name' : 'siapa aku?',
+            'age' : 10     
+        } 
+    ]
+}

@@ -20,11 +20,11 @@ number2 = int(input('enter second number: '))
 add = addition(number1, number2)
 print(f'{number1} + {number2} = {add}')
 
-subs = addition(number1, number2)
-print(f'{number1} - {number2} = {add}')
+subs = sub(number1, number2)
+print(f'{number1} - {number2} = {subs}')
 
-kali = addition(number1, number2)
-print(f'{number1} * {number2} = {add}')
+kali = multi(number1, number2)
+print(f'{number1} * {number2} = {kali}')
 
-bagi = addition(number1, number2)
-print(f'{number1} / {number2} = {add}')
+bagi = div(number1, number2)
+print(f'{number1} / {number2} = {bagi}')
